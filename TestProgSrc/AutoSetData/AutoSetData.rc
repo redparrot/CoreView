@@ -1,0 +1,194 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\AutoSetData.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\AutoSetData.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_AUTOSETDATA_DIALOG DIALOGEX 0, 0, 529, 375
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "AutoSetData"
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    CONTROL         "Custom1",IDC_CUSTOM_GRID,"MFCGridCtrl",WS_TABSTOP,7,66,515,274
+    EDITTEXT        IDC_EDIT1,49,352,96,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "置数周期",IDC_STATIC,13,354,33,14
+    PUSHBUTTON      "开始",IDC_BUTTON_BEGIN,358,349,50,18
+    LTEXT           "毫秒",IDC_STATIC,151,354,17,14
+    PUSHBUTTON      "暂停",IDC_BUTTON_PAUSE,415,349,50,18
+    CONTROL         "正弦曲线",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,188,354,48,10
+    DEFPUSHBUTTON   "保存",IDC_BUTTON_BEGIN3,299,349,50,18
+    PUSHBUTTON      "关闭",IDCANCEL,472,349,50,18
+    PUSHBUTTON      "导入本地数据收集点",IDC_BUTTON1,77,23,88,18
+    PUSHBUTTON      "加入所有AI点",IDC_BUTTON2,181,23,62,18
+    PUSHBUTTON      "导入DI(100点)",IDC_BUTTON3,255,23,62,18
+    PUSHBUTTON      "加入所有AO点",IDC_BUTTON4,329,23,62,18
+    PUSHBUTTON      "清空",IDC_BUTTON5,7,23,62,18
+    PUSHBUTTON      "导入DO(100点)",IDC_BUTTON6,403,23,62,18
+    CTEXT           "AI:",IDC_STATIC_AI,181,13,62,7
+    CTEXT           "DI:",IDC_STATIC_DI,255,13,62,7
+    CTEXT           "AO:",IDC_STATIC_AO,329,13,62,7
+    CTEXT           "DO:",IDC_STATIC_DO,403,13,62,7
+    EDITTEXT        IDC_EDIT_AI,181,44,35,18,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_BUTTON_AI,220,44,23,18
+    EDITTEXT        IDC_EDIT_DI,256,44,35,18,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_BUTTON_DI,294,44,23,18
+    EDITTEXT        IDC_EDIT_AO,329,44,35,18,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_BUTTON_AO,368,44,23,18
+    EDITTEXT        IDC_EDIT_DO,403,44,35,18,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_BUTTON_DO,442,44,23,18
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "FileDescription", "AutoSetData Microsoft 基础类应用程序"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "AutoSetData"
+            VALUE "LegalCopyright", "版权所有 (C) 2006"
+            VALUE "OriginalFilename", "AutoSetData.EXE"
+            VALUE "ProductName", "AutoSetData 应用程序"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_AUTOSETDATA_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 522
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 368
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\AutoSetData.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

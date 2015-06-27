@@ -1,0 +1,241 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\CVEventManagerTest.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\CVEventManagerTest.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 CVEventManagerTest"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "CVEventManagerTest 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2006",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_CVEVENTMANAGERTEST_DIALOG DIALOGEX 0, 0, 474, 309
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "TestCVEventManager"
+FONT 11, "宋体", 400, 0, 0x86
+BEGIN
+    DEFPUSHBUTTON   "关闭",IDOK,417,7,50,16
+    PUSHBUTTON      "调用密码输入DLL",IDC_BUTTON1,15,16,74,16
+    LTEXT           "密码校验结果",IDC_STATIC1,15,40,74,8
+    GROUPBOX        "系统消息",IDC_STATIC,106,3,219,190
+    PUSHBUTTON      "发送新系统消息",IDOK37,188,11,66,13
+    PUSHBUTTON      "关闭系统消息",IDOK38,113,24,74,13
+    PUSHBUTTON      "运行SOE报警小窗口",IDOK39,113,112,74,16
+    PUSHBUTTON      "关闭SOE小窗口",IDOK40,113,130,74,16
+    PUSHBUTTON      "运行报警小窗口",IDOK41,113,152,74,16
+    PUSHBUTTON      "关闭报警小窗口",IDOK42,113,171,74,16
+    GROUPBOX        "密码对话框",IDC_STATIC,7,3,90,52
+    PUSHBUTTON      "产生共享内存",IDOK43,189,152,65,16,BS_MULTILINE
+    PUSHBUTTON      "10条报警变化",IDOK44,189,171,65,16
+    PUSHBUTTON      "运行系统消息",IDOK45,113,11,74,13
+    PUSHBUTTON      "关闭EventTrigger",IDOK46,15,108,74,16
+    PUSHBUTTON      "运行EventTrigger",IDOK47,15,89,74,16
+    GROUPBOX        "密码对话框",IDC_STATIC,7,80,90,52
+    PUSHBUTTON      "Speech测试",IDOK48,14,203,65,16
+    PUSHBUTTON      "专用键盘显示",IDOK49,256,152,65,16,BS_MULTILINE
+    PUSHBUTTON      "专用键盘声音确认",IDOK50,256,170,65,16,BS_MULTILINE
+    PUSHBUTTON      "Wav测试",IDOK51,14,222,65,16
+    PUSHBUTTON      "Stop测试",IDOK52,84,203,65,16
+    PUSHBUTTON      "SpeechSync测试",IDOK53,84,222,65,16
+    PUSHBUTTON      "隐藏报警小窗口",IDOK54,189,130,65,16
+    PUSHBUTTON      "发送系统重启消息",IDOK55,255,11,66,13
+    PUSHBUTTON      "专用键盘显示",IDOK56,255,24,65,13,BS_MULTILINE
+    PUSHBUTTON      "重启内存",IDOK57,154,203,65,16
+    PUSHBUTTON      "重启CoreView",IDOK58,154,222,65,16
+    PUSHBUTTON      "循环声音/语音测试",IDOK59,14,242,65,16
+    PUSHBUTTON      "循环停止",IDOK60,84,242,65,16
+    PUSHBUTTON      "异常",IDC_BUTTON2,188,24,21,13
+    PUSHBUTTON      "恢复",IDC_BUTTON3,233,24,21,13
+    PUSHBUTTON      "专用键盘全部确认",IDOK61,255,111,65,16,BS_MULTILINE
+    PUSHBUTTON      "清除特定的消息",IDC_BUTTON4,188,37,66,13
+    PUSHBUTTON      "Topmost core",IDC_BUTTON5,255,130,65,16
+    PUSHBUTTON      "CVToolManager最小化",IDOK62,10,60,84,16
+    GROUPBOX        "",IDC_STATIC,7,194,219,70
+    PUSHBUTTON      "启动多个Crtop实例",IDOK63,232,203,84,16
+    PUSHBUTTON      "关闭Crtop",IDOK64,232,222,84,16
+    PUSHBUTTON      "弹出框-永不消失",IDC_BUTTON6,113,50,74,13
+    PUSHBUTTON      "弹出框-5秒消失",IDC_BUTTON7,188,50,74,13
+    PUSHBUTTON      "恢复:弹出框消息-0",IDC_BUTTON8,113,65,74,13
+    PUSHBUTTON      "远程重启内存管理",IDOK65,14,269,65,16
+    PUSHBUTTON      "警示消息",IDC_BUTTON9,113,82,74,13
+    PUSHBUTTON      "关闭警示消息",IDC_BUTTON10,113,96,74,13
+    PUSHBUTTON      "转换系统图消息",IDOK66,337,11,65,13
+    PUSHBUTTON      "扫描系统图消息",IDOK67,337,28,65,13
+    GROUPBOX        "",IDC_STATIC,328,3,83,98
+    PUSHBUTTON      "获取PID列表",IDOK68,337,45,65,13
+    PUSHBUTTON      "获取弹出图列表",IDOK69,337,62,65,13
+    PUSHBUTTON      "替换PID",IDOK70,337,79,65,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "CVEventManagerTest.exe"
+            VALUE "OriginalFilename", "CVEventManagerTest.exe"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_CVEVENTMANAGERTEST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 467
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 302
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 CVEventManagerTest(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\CVEventManagerTest.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CVLocalDataCommTest", "CVLocalDataCommTest\CVLocalDataCommTest.vcproj", "{E2D264C4-7D75-4A20-B7FD-1CA291C1D597}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CVLocalDateComm", "..\..\FuncSrc\CVTrendSrc\CVLocalDateComm\CVLocalDateComm\CVLocalDateComm.vcproj", "{A5921501-BD0C-40D0-ACDF-39CFE39F7818}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2D264C4-7D75-4A20-B7FD-1CA291C1D597}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2D264C4-7D75-4A20-B7FD-1CA291C1D597}.Debug|Win32.Build.0 = Debug|Win32
+		{E2D264C4-7D75-4A20-B7FD-1CA291C1D597}.Release|Win32.ActiveCfg = Release|Win32
+		{E2D264C4-7D75-4A20-B7FD-1CA291C1D597}.Release|Win32.Build.0 = Release|Win32
+		{A5921501-BD0C-40D0-ACDF-39CFE39F7818}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A5921501-BD0C-40D0-ACDF-39CFE39F7818}.Debug|Win32.Build.0 = Debug|Win32
+		{A5921501-BD0C-40D0-ACDF-39CFE39F7818}.Release|Win32.ActiveCfg = Release|Win32
+		{A5921501-BD0C-40D0-ACDF-39CFE39F7818}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal

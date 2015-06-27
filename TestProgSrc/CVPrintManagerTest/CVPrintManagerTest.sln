@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CVPrintManagerTest", "CVPrintManagerTest\CVPrintManagerTest.vcproj", "{E2EC53AD-916E-4CD3-B271-2BC947594852}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2EC53AD-916E-4CD3-B271-2BC947594852}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2EC53AD-916E-4CD3-B271-2BC947594852}.Debug|Win32.Build.0 = Debug|Win32
+		{E2EC53AD-916E-4CD3-B271-2BC947594852}.Release|Win32.ActiveCfg = Release|Win32
+		{E2EC53AD-916E-4CD3-B271-2BC947594852}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
